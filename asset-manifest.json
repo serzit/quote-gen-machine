@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/quote-generator/static/css/main.58905033.chunk.css",
-    "main.js": "/quote-generator/static/js/main.440f62c8.chunk.js",
-    "main.js.map": "/quote-generator/static/js/main.440f62c8.chunk.js.map",
-    "runtime-main.js": "/quote-generator/static/js/runtime-main.c813f35b.js",
-    "runtime-main.js.map": "/quote-generator/static/js/runtime-main.c813f35b.js.map",
-    "static/js/2.b2e8e051.chunk.js": "/quote-generator/static/js/2.b2e8e051.chunk.js",
-    "static/js/2.b2e8e051.chunk.js.map": "/quote-generator/static/js/2.b2e8e051.chunk.js.map",
-    "index.html": "/quote-generator/index.html",
-    "precache-manifest.faa369276b8054b2382d333c3cae276d.js": "/quote-generator/precache-manifest.faa369276b8054b2382d333c3cae276d.js",
-    "service-worker.js": "/quote-generator/service-worker.js",
-    "static/css/main.58905033.chunk.css.map": "/quote-generator/static/css/main.58905033.chunk.css.map",
-    "static/js/2.b2e8e051.chunk.js.LICENSE.txt": "/quote-generator/static/js/2.b2e8e051.chunk.js.LICENSE.txt"
+    "main.css": "/quote-gen-machine/static/css/main.58905033.chunk.css",
+    "main.js": "/quote-gen-machine/static/js/main.440f62c8.chunk.js",
+    "main.js.map": "/quote-gen-machine/static/js/main.440f62c8.chunk.js.map",
+    "runtime-main.js": "/quote-gen-machine/static/js/runtime-main.7a3b9f92.js",
+    "runtime-main.js.map": "/quote-gen-machine/static/js/runtime-main.7a3b9f92.js.map",
+    "static/js/2.b2e8e051.chunk.js": "/quote-gen-machine/static/js/2.b2e8e051.chunk.js",
+    "static/js/2.b2e8e051.chunk.js.map": "/quote-gen-machine/static/js/2.b2e8e051.chunk.js.map",
+    "index.html": "/quote-gen-machine/index.html",
+    "precache-manifest.db009f1d1870ae7265c202046e37ebd7.js": "/quote-gen-machine/precache-manifest.db009f1d1870ae7265c202046e37ebd7.js",
+    "service-worker.js": "/quote-gen-machine/service-worker.js",
+    "static/css/main.58905033.chunk.css.map": "/quote-gen-machine/static/css/main.58905033.chunk.css.map",
+    "static/js/2.b2e8e051.chunk.js.LICENSE.txt": "/quote-gen-machine/static/js/2.b2e8e051.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.c813f35b.js",
+    "static/js/runtime-main.7a3b9f92.js",
     "static/js/2.b2e8e051.chunk.js",
     "static/css/main.58905033.chunk.css",
     "static/js/main.440f62c8.chunk.js"

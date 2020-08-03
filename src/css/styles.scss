@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+*, *::before, *::after {
+  bix-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+  height: 100vh;
+  background-image: linear-gradient(45deg, #103162, #0e4f84, #0370a6, #0092c5, #0cb5e3);
+  box-sizing: border-box;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  outline: none;
+  font-family: 'Merriweather', serif;
+  cursor: pointer;
+}
+
+#quote-box {
+  background-color: rgba(255,255,255, 0.6);
+  padding: 3rem 5rem 1.5rem;
+  border-radius: 10px;
+  box-shadow: 7px 7px 15px rgba(0,0,0, .2);
+  width: 90%;
+  max-width: 400px;
+  opacity: 0;
+  transform: scale(1.1);
+  animation: fadeIn .5s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#text {
+  font-size: 19px;
+  line-height: 1.5;
+  color: #232323;
+  position: relative;
+  z-index: 5;
+
+  &::before {
+    content: '\201C';
+    position: absolute;
+    font-size: 150px;
+    color: rgba(0,0,0, .1);
+    z-index: 1;
+    top: -70px;
+    left: -70px;
+  }
+}
+
+#author {
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+  text-align: right;
+  margin: 5px 5px 30px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+#new-quote {
+  text-decoration: none;
+  color: rgba(255,255,255, .8);
+  font-size: 15px;
+  display: inline-block;
+  margin-left: auto;
+  padding: .4rem 1rem;
+  border-radius: 5px;
+  box-shadow: 4px 4px 10px rgba(0,0,0, .15);
+  background-color: #0e4f84;
+  transform: translateY(0);
+  transition: all .15s ease;
+
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 5px 5px 5px rgba(0,0,0, .15);
+  }
+}
+
+#tweet-quote {
+  text-decoration: none;
+  color: #0e4f84;
+  font-size: 27px;
+  transition: color .15s ease;
+  z-index: 10;
+
+  &:hover {
+    color: #0092c5;
+  }
+}
+
+.error {
+  font-size: 3rem;
+  color: red;
+}
